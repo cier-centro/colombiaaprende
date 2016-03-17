@@ -213,12 +213,8 @@ input{display: inline-block;width: 80%;height: 34px;padding: 6px 12px;font-size:
     height: 148px;
 }
 
-.slide .jcarousel-skin-default .jcarousel-container-horizontal{
-    width:600px !important;
-}
-
 .slide .jcarousel-skin-default .jcarousel-clip-horizontal{
-    width:800px !important;
+    width:90% !important;
 }
 
 .slide .jcarousel-skin-default .jcarousel-item-horizontal{
@@ -262,6 +258,8 @@ input{display: inline-block;width: 80%;height: 34px;padding: 6px 12px;font-size:
 
 .slide .jcarousel-skin-default .jcarousel-container-horizontal {
     padding: 0px 0px 0px 0px;
+    padding-left: 10%;
+    width: auto !important;
 }
 
 .panel-flexible .panel-separator {
