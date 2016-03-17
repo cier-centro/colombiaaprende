@@ -459,6 +459,10 @@ input{display: inline-block;width: 80%;height: 34px;padding: 6px 12px;font-size:
         width: 80%;
         margin-left: 0;
      }
+     .slide{
+        margin-left: 5%;
+        width: 90%;
+     }
 }
 @media (min-width: 1500px) {
     .student{-webkit-background-size: auto;-moz-background-size: auto;-o-background-size: auto;background-size: auto;}
