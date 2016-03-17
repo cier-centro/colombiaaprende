@@ -39,7 +39,7 @@ border-radius: 10px;}
 .fa-instagram:hover{background-position: -200px -40px;}
 .ico-register{background:url("http://aprende.colombiaaprende.edu.co/sites/all/themes/escuelas/img/ico-register.png") no-repeat;width: 25px;height: 25px;}
 .navbar-collapse >.btn,.btn-register{color: #fff;background-color: #de5a49;border-color: #de5a49; text-align: right;padding: 0px 12px;}
-.navbar-collapse >.btn{margin-top:5px;-webkit-border-radius: 17px;-moz-border-radius: 17px;border-radius: 17px; float: right;line-height: 25px;}
+.navbar-collapse >.btn{margin:5px 5px 0 0;-webkit-border-radius: 17px;-moz-border-radius: 17px;border-radius: 17px; float: right;line-height: 25px;}
 .navbar{border:0px; min-height:40px;border-bottom:5px solid; color:#de5a49;}
 .navbar-icons{display: block;width: 100%;height: 100px;}
 .logo{margin: 5px 0 5px 0;}
@@ -86,8 +86,8 @@ input{display: inline-block;width: 80%;height: 34px;padding: 6px 12px;font-size:
 .banner-header{background:url("http://aprende.colombiaaprende.edu.co/sites/all/themes/escuelas/img/img-header.jpg") no-repeat center center;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;}
 
 .main-menu>div{  background-color:rgba(28,61,78,1.0);}
-.main-menu>div>ul{  width: 100%;  margin: auto;  height: auto; display: inline-block;}
-.main-menu>div>ul>li{  width: 16%; float: right; display: block; text-decoration: none;}
+.main-menu>div>ul{  width: 90%; margin: 0 5%;  height: auto;  display: inline-block;padding: 0px!important;}
+.main-menu>div>ul>li{  width: 16.6%; float: right; display: block; text-decoration: none;box-sizing:border-box;margin:0;padding:0;}
 .main-menu>div>ul>li>a{color:rgba(255,255,255,0.0);text-decoration: none;display: block;padding: 25px; overflow:hidden;-webkit-transition:all 500ms ease-in;-o-transition:all 500ms ease;transition:all 500ms ease;}
 .main-menu>div>ul>li>a{ height: 70px;padding:0px}
 
@@ -239,7 +239,7 @@ input{display: inline-block;width: 80%;height: 34px;padding: 6px 12px;font-size:
 
 .slide .views-field-title a{
    color:#fff;
-   font-size:20px;
+   font-size:12px;
 }
 
 .slide{
@@ -384,7 +384,7 @@ input{display: inline-block;width: 80%;height: 34px;padding: 6px 12px;font-size:
 }
 
 .twitter-minipanel .view-social-stream-feeds .views-row .sns_twitter {
-    width: 204px;
+    width: auto;
     padding-left: 22px;
     background: transparent url('http://aprende.colombiaaprende.edu.co/sites/all/themes/aprende/images/header/lnb_sns_twitter_on.jpg') top left no-repeat;
     background-size: 22px;
@@ -401,7 +401,7 @@ input{display: inline-block;width: 80%;height: 34px;padding: 6px 12px;font-size:
 
 .twitter-minipanel>h2{
     background: url("http://aprende.colombiaaprende.edu.co/sites/all/themes/escuelas/img/ico-twitter.png") no-repeat;
-    padding: 8px 40px;
+    padding: 15px 40px;
 }
 
 
@@ -449,10 +449,45 @@ input{display: inline-block;width: 80%;height: 34px;padding: 6px 12px;font-size:
         padding-top: 60px;
         padding-left: 62px;
      }
-     .agenda-minipanel{
+     .agenda-minipanel, .twitter-minipanel, .twitter-minipanel .pane-content, .twitter-minipanel .sns_twitter{
         width: 100%;
+     }
+     .twitter-minipanel{
+       margin-left: 0;
      }
 }
 @media (min-width: 1500px) {
+    .student{-webkit-background-size: auto;-moz-background-size: auto;-o-background-size: auto;background-size: auto;}
+    .univ_student{-webkit-background-size: auto;-moz-background-size: auto;-o-background-size: auto;background-size: auto;}
+    .univ_professor{-webkit-background-size: auto;-moz-background-size: auto;-o-background-size: auto;background-size: auto;}
+    .teacher{-webkit-background-size: auto;-moz-background-size: auto;-o-background-size: auto;background-size: auto;}
+    .researcher{-webkit-background-size: auto;-moz-background-size: auto;-o-background-size: auto;background-size: auto;}
+    .family{-webkit-background-size: auto;-moz-background-size: auto;-o-background-size: auto;background-size: auto;}
 
+    .student:hover{-webkit-background-size: auto;-moz-background-size: auto;-o-background-size: auto;background-size: auto;}
+    .univ_student:hover{-webkit-background-size: auto;-moz-background-size: auto;-o-background-size: auto;background-size: auto;}
+    .univ_professor:hover{-webkit-background-size: auto;-moz-background-size: auto;-o-background-size: auto;background-size: auto;}
+    .teacher:hover{-webkit-background-size: auto;-moz-background-size: auto;-o-background-size: auto;background-size: auto;}
+    .researcher:hover{-webkit-background-size: auto;-moz-background-size: auto;-o-background-size: auto;background-size: auto;}
+    .family:hover{-webkit-background-size: auto;-moz-background-size: auto;-o-background-size: auto;background-size: auto;}
+
+    .cursos-online{-webkit-background-size: auto;-moz-background-size: auto;-o-background-size: auto;background-size: auto;}
+    .agenda{-webkit-background-size: auto;-moz-background-size: auto;-o-background-size: auto;background-size: auto;}
+    .comunidades{-webkit-background-size: auto;-moz-background-size: auto;-o-background-size: auto;background-size: auto;}
+    .programas-especiales{-webkit-background-size: auto;-moz-background-size: auto;-o-background-size: auto;background-size: auto;}
+    .catalogo{-webkit-background-size: auto;-moz-background-size: auto;-o-background-size: auto;background-size: auto;}
+    .experiencias{-webkit-background-size: auto;-moz-background-size: auto;-o-background-size: auto;background-size: auto;}
+
+    .cursos-online:hover{-webkit-background-size: auto;-moz-background-size: auto;-o-background-size: auto;background-size: auto;}
+    .agenda:hover{-webkit-background-size: auto;-moz-background-size: auto;-o-background-size: auto;background-size: auto;}
+    .comunidades:hover{-webkit-background-size: auto;-moz-background-size: auto;-o-background-size: auto;background-size: auto;}
+    .programas-especiales:hover{-webkit-background-size: auto;-moz-background-size: auto;-o-background-size: auto;background-size: auto;}
+    .catalogo:hover{-webkit-background-size: auto;-moz-background-size: auto;-o-background-size: auto;background-size: auto;}
+    .experiencias:hover{-webkit-background-size: auto;-moz-background-size: auto;-o-background-size: auto;background-size: auto;}
+}
+.vista-especiales .jcarousel-skin-default .jcarousel-next-horizontal{
+	background-image: url(http://aprende.colombiaaprende.edu.co/sites/all/themes/escuelas/img/img-arrow.png) !important;
+}
+.vista-especiales .jcarousel-skin-default .jcarousel-prev-horizontal{
+		background-image: url(http://aprende.colombiaaprende.edu.co/sites/all/themes/escuelas/img/ico-vermas.png) !important;
 }
