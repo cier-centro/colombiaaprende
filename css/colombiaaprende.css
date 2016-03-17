@@ -495,6 +495,7 @@ input{display: inline-block;width: 80%;height: 34px;padding: 6px 12px;font-size:
 }
 @media (max-width: 670px) {
 	#edit-submit--3 {width: 100%;margin:5px 0 0 0;color: rgb(255, 255, 255);-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;background-image:none !important;}
+	input{width: 100%;margin:0;}
 }
 .vista-especiales .jcarousel-skin-default .jcarousel-next-horizontal{position: absolute;top: 20px;right: 10px;background-position: 0 0px;background-color: rgba(255, 255, 255, 0.2);height: 180px;background-image: url(http://aprende.colombiaaprende.edu.co/sites/all/themes/escuelas/img/img-arrow.png) !important;}
 .vista-especiales .jcarousel-skin-default .jcarousel-next-horizontal:hover{background-position: -32px 0px;}
